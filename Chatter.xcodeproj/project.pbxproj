@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9EC1585E1CB08C2B001C03E6 /* ChatWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC1585C1CB08C2B001C03E6 /* ChatWindowController.swift */; };
+		9EC1585F1CB08C2B001C03E6 /* ChatWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EC1585D1CB08C2B001C03E6 /* ChatWindowController.xib */; };
 		9EF829391CB02B2200F2395C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF829381CB02B2200F2395C /* AppDelegate.swift */; };
 		9EF8293B1CB02B2200F2395C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EF8293A1CB02B2200F2395C /* Assets.xcassets */; };
 		9EF8293E1CB02B2200F2395C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EF8293C1CB02B2200F2395C /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9EC1585C1CB08C2B001C03E6 /* ChatWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatWindowController.swift; sourceTree = "<group>"; };
+		9EC1585D1CB08C2B001C03E6 /* ChatWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatWindowController.xib; sourceTree = "<group>"; };
 		9EF829351CB02B2200F2395C /* Chatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF829381CB02B2200F2395C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EF8293A1CB02B2200F2395C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				9EF829381CB02B2200F2395C /* AppDelegate.swift */,
+				9EC1585C1CB08C2B001C03E6 /* ChatWindowController.swift */,
+				9EC1585D1CB08C2B001C03E6 /* ChatWindowController.xib */,
 				9EF8293A1CB02B2200F2395C /* Assets.xcassets */,
 				9EF8293C1CB02B2200F2395C /* MainMenu.xib */,
 				9EF8293F1CB02B2200F2395C /* Info.plist */,
@@ -118,6 +124,7 @@
 			files = (
 				9EF8293B1CB02B2200F2395C /* Assets.xcassets in Resources */,
 				9EF8293E1CB02B2200F2395C /* MainMenu.xib in Resources */,
+				9EC1585F1CB08C2B001C03E6 /* ChatWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EF829391CB02B2200F2395C /* AppDelegate.swift in Sources */,
+				9EC1585E1CB08C2B001C03E6 /* ChatWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +279,7 @@
 				9EF829441CB02B2200F2395C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
